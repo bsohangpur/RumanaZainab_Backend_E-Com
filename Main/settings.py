@@ -65,6 +65,9 @@ DATABASES = {
     }
 }
 
+
+
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -119,9 +122,4 @@ SIMPLE_JWT = {
     "ALGORITHM": "HS256",
 }
 
-
-EMAIL_HOST = 'smtp.hostinger.com'
-EMAIL_PORT = '465'
-EMAIL_HOST_USER = 'contact@rumanazainab.com'
-EMAIL_HOST_PASSWORD = 'Hello_123'
-EMAIL_USE_SSL = True
+#email SMTA settings come here
